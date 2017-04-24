@@ -1,0 +1,187 @@
+* {
+	font-family: "Arial";
+}
+
+#wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+/*---Header Section---*/
+.header {
+	width: 1000px;
+	background-color: #FFB4B0;
+	display: flex;
+	padding-left: 25px;
+	border: 2px solid black;
+	margin-bottom: 15px;
+	margin-left: 60px;
+}
+
+.header a {
+	align-self: center;
+	padding-left: 4px;
+	margin-left: 4px;
+	padding-right: 8px;
+	margin-top: 21.28px;
+	margin-bottom: 21.28px;
+}
+
+.header a:not(:last-child) {
+	border-right: 2px solid black;
+}
+
+/*---Right Side---*/
+
+.right {
+	background-color: #4DD7FA;
+	width: 190px;
+	border: 2px solid black;
+	padding-left: 1em;
+	padding-bottom: 15px;
+	margin-left: 60px;
+}
+
+.right h4 {
+	margin-bottom: 5px;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	width: 85%;
+	border: 2px solid black;
+	border-radius: 7px;
+	height: 7px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: 2px solid black;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	background: #e8e8e8;
+	cursor: pointer;
+}
+
+input[value=Option] {
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 85%;
+	height: 17px;
+}
+
+input[type=checkbox] {
+	-webkit-appearance: none;
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 17px;
+	width: 17px;
+	margin-bottom: 0;
+	background-color: white;
+	margin-left: 10px;
+}
+
+input[type=checkbox]:checked {
+	background-color: #e8e8e8;
+}
+
+input[type=submit] {
+	width: 140px;
+	height: 25px;
+	background-color: #e8e8e8;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-left: 15px;
+	font-size: 1em;
+}
+
+input[type=submit]:active {
+	width: 140px;
+	height: 25px;
+	background-color: #c1c1c1;
+}
+
+/*---Main Section---*/
+
+.body {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main {
+	width: 798px;
+	background-color: #FEFAC0;
+	border: 2px solid black;
+	margin-left: 15px;
+}
+
+.main h1 {
+	margin-bottom: 10px;
+	color: #785616;
+	padding-left: 30px;
+	font-weight: 100;
+}
+
+.main ul {
+	margin-top: 0;
+	padding-left: 30px;
+	font-weight: 100;
+}
+
+.main li {
+	list-style-type: none;
+	margin-right: 15px;
+
+}
+
+.type ul {
+	display: flex;
+}
+
+.type li:not(:last-child) {
+	border-right: 2px solid black;
+	padding-right: 15px;
+}
+ /*--- Add-Music ---*/
+
+ .add-music {
+ 	width: 30%;
+ 	margin: auto;
+ 	margin-top: 65px;
+ 	display: grid;
+ }
+
+input[type=text] {
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 10px;
+	height: 20px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
